@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    padding:  25px 0;
+}
+
+.Cabeçalho{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .Cabeçalho {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Cabeçalho_academia{
+    display: inline;
+    color: #FF8C00;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.opcao_menu, .opcao_itens {
+    display: inline;
+    text-decoration: none;
+    margin-right: 16px;
+    color: #FF8C00;
+    font-family: "Anton", sans-serif;
+    font-size: 18px;
+}
+
+.Cabeçalho_academia {
+    font-family: "Anton", sans-serif;
+    font-size: 35px;
+}
+
+main{
+    background-color:#DCDCDC;
+}
+
+.Academia, .sobre_treino, .grade {
+    display: flex;
+    padding:25px 0;
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+}
+
+.frente_academia{
+    height: 500px;
+    width: 700px;
+    margin-right:  25px;
+    margin-left: 10px;
+}
+
+header, .titulo,
+.subtitulo, .titulo2,.agende, .botao, footer{
+    font-family: "Anton", sans-serif;
+    font-size: 25px;
+}
+
+
+.texto{
+    margin: 16px 0;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.titulo{
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.titulo2 {
+    font-size: 30px;
+    margin-left: 10px;
+   
+}
+
+.person{
+    height: 500px;
+    width: 600px;
+    margin-left: 25px;
+    margin-right: 40px;
+}
+
+.grade_horarios{
+    height: 500px;
+    width: 600px;
+    margin-left: 100px;
+    margin-right: 48px;
+}
+
+.Contato, .rodape {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.agende{
+    margin-top: 20px;
+}
+
+.subtitulo {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista,.lista-logo1, .lista-img {
+    display: inline;
+    margin-right: 8px;
+    height: 25px;
+   
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.formulario, .mensagem,
+.botao {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.mensagem{
+    resize: none;
+    height: 180px;
+}
+
+.botao {
+    background-color: #FF8C00;
+    border: none;
+    color:#000000;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.formulario, .mensagem{
+    border: none;
+}
+
+
+form .botao:hover {
+     background-color: #db4812;
+}
+
+footer{
+    background-color: #000000;
+    color: #FF8C00;
+    padding: 16px 0;
+    text-align: center;
+}
